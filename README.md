@@ -1,5 +1,5 @@
 ﻿# Backdoor ES
-Para exponerlo a internet redirigir con TCP no con HTTP. Ejemplo: ngrok tcp 8080.
+Para exponerlo a internet redirigir con TCP no con HTTP. Ejemplo: ngrok tcp 8080. Estamos trabajando con sockets.
 
 Las carpetas "build" y "dist" son para crear un ejecutable de nuestyro python script.
 
@@ -19,7 +19,7 @@ Hermes: Inyecta archivos en sistemas objetivo, integrándolos sin problemas en d
 Argos: Captura la actividad de la pantalla objetivo, proporcionando un archivo visual. Servidor. Puerto: 3030
 
 # Backdoor EN
-"To expose it to the internet, redirect with TCP not with HTTP. Example: ngrok tcp 8080.
+"To expose it to the internet, redirect with TCP not with HTTP. Example: ngrok tcp 8080. We are working with sockets.
 
 The folders "build" and "dist" are for creating an executable of our Python script.
 
