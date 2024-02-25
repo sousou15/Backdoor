@@ -1,7 +1,7 @@
 import socket
 
 def main():
-    host = '192.168.1.138'  # Cambia esto por la dirección IP de tu cliente
+    host = '192.168.1.138'  # Local
     port = 12345  # Puerto que utilizará el servidor
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
