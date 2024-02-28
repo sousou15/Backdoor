@@ -8,10 +8,13 @@ def main():
         s.bind((host, port))
         s.listen(1)
         print("Esperando conexión...")
+       
         conn, addr = s.accept()
+        ip_data = conn.recv(1024)
+        ip = ip_data.decode()
         conn.settimeout(10)
         with conn:
-            print('Conectado a:', addr)
+            print('Conectado a:', addr,': 1 cliente -> ', ip)
             while True:
                 command = input("Introduce un comando para enviar al cliente (exit para salir): ")
                 if command.lower() == 'exit':
