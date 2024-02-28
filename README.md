@@ -10,7 +10,7 @@ We can use curl along with the Hermes, Loki, and Hestia servers.
 
 # Modules EN
 
-Maat: Grants comprehensive access to target systems, facilitating command execution, file manipulation, and reconnaissance. Server. Port: 12345
+Maat: Grants comprehensive access to target systems, facilitating command execution, file manipulation, and reconnaissance. Server. Port: 
 
 MaatReverse: Establishes a covert reverse connection, enabling communication from the target to the operator's server. Reverse shell.
 
@@ -35,7 +35,7 @@ Podemos usar curl para junto con los servidores Hermes, Loki, Hestia.
 
 # Modules ES
 
-Backdoor Maat: Concede acceso al cmd de los sistemas objetivo, facilitando la ejecución de comandos, manipulación de archivos y reconocimiento. Servidor. Puerto: 12345
+Backdoor Maat: Concede acceso al cmd de los sistemas objetivo, facilitando la ejecución de comandos, manipulación de archivos y reconocimiento. Servidor. Puerto: 
 
 MaatReverse: Establece una conexión inversa , permitiendo la comunicación desde el objetivo hasta el servidor del operador que en este caso es el cliente. Shell inverso.
 
