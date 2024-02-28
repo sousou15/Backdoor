@@ -10,7 +10,7 @@ Backdoor Maat: Concede acceso al cmd de los sistemas objetivo, facilitando la ej
 
 MaatReverse: Establece una conexión inversa , permitiendo la comunicación desde el objetivo hasta el servidor del operador que en este caso es el cliente. Shell inverso.
 
-Hestia: Crea una interfaz oculta para la recuperación segura de archivos del sistema objetivo, garantizando la extracción sigilosa de datos. Servidor. Puerto: 5000
+Hestia: Crea una interfaz oculta para la recuperación segura de archivos del sistema objetivo, garantizando la extracción de datos. Servidor. Puerto: 5000
 
 Loki: Permite la descarga de archivos desde sistemas objetivo. Servidor. Puerto: 8000
 
@@ -28,7 +28,7 @@ We can use curl along with the Hermes, Loki, and Hestia servers.
 
 Maat: Grants comprehensive access to target systems, facilitating command execution, file manipulation, and reconnaissance. Server. Port: 12345
 
-MaatReverse: Establishes a covert reverse connection, enabling communication from the target to the operator's server without detection. Reverse shell.
+MaatReverse: Establishes a covert reverse connection, enabling communication from the target to the operator's server. Reverse shell.
 
 Hestia: Creates a concealed interface for secure file retrieval from the target system, ensuring stealthy data extraction. Server. Port: 5000
 
