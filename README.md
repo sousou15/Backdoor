@@ -14,7 +14,7 @@ Maat: Grants comprehensive access to target systems, facilitating command execut
 
 MaatReverse: Establishes a covert reverse connection, enabling communication from the target to the operator's server. Reverse shell.
 
-Hestia: Creates a concealed interface for secure file retrieval from the target system, ensuring stealthy data extraction. Server. Port: 5000
+Hestia: Creates a concealed interface for secure file retrieval from the target system. It has 2 modules, one with public ip checker and the other only resolves local hosts. Server. Port: 5000
 
 Loki: Allows file downloads from target systems. Server. Port: 8000
 
