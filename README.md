@@ -4,7 +4,6 @@ I made this project just for fun.
 
 "To expose it to the internet, redirect with TCP not with HTTP. Example: ngrok tcp 8080. We are working with sockets.
 
-The folders "build" and "dist" are for creating an executable of our Python script. Just ignore that, I should had "gitignored" it.
 
 In NOTES.txt, there are some commands that can be executed. We can schedule the executable as a task to run at intervals to re-establish the connection.
 We can use curl along with the Hermes, Loki, and Hestia servers.
@@ -30,7 +29,6 @@ Algunos bugs ya están corregidos en la actualidad.
 
 Para exponerlo a internet redirigir con TCP no con HTTP. Ejemplo: ngrok tcp 8080. Estamos trabajando con sockets.
 
-Las carpetas "build" y "dist" son para crear un ejecutable de nuestyro python script.
 
 En NOTAS.txt salen algunos comandos que se pueden hacer. Podemos convertir el ejecutable en tarea y hacer que se ejecute cada x tiempo para volver a recuperar la conexión.
 Podemos usar curl para junto con los servidores Hermes, Loki, Hestia.
