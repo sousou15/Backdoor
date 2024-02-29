@@ -15,11 +15,11 @@ We can use curl along with the Hermes, Loki, and Hestia servers.
 
 # Modules 
 
-Maat: Grants comprehensive access to target systems, facilitating command execution, file manipulation, and reconnaissance. Server. Port: 
+Maat: Grants comprehensive access to target systems, facilitating command execution, file manipulation, and reconnaissance. Based on sockets. TCP. 
 
-MaatReverse: Establishes a covert reverse connection, enabling communication from the target to the operator's server. Reverse shell.
+MaatReverse: Establishes a covert reverse connection, enabling communication from the target to the operator's server. Reverse shell. Still working on it ;)
 
-Hestia: Creates a concealed interface for secure file retrieval from the target system. It has 2 modules, one with public ip checker and the other only resolves local hosts. Server. Port: 5000
+Hestia: Endpoint for file retrieval from the target system. It has 2 modules, one with public ip checker and the other only resolves local hosts. Server. Port: 5000
 
 Loki: Allows file downloads from target systems. Server. Port: 8000
 
