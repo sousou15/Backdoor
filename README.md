@@ -26,29 +26,4 @@ Hermes: Injects files into target systems, seamlessly integrating them into dire
 
 Argos: Captures target screen activity, providing a visual file. Server. Port: 3030
  
- # Backdoor ES
-
-Esto es una versión funcional pero muy sencilla. Es un proyecto hecho solo por diversión.
-Algunos bugs ya están corregidos en la actualidad.
-
-Para exponerlo a internet redirigir con TCP no con HTTP. Ejemplo: ngrok tcp 8080. Estamos trabajando con sockets.
-
-
-En NOTAS.txt salen algunos comandos que se pueden hacer. Podemos convertir el ejecutable en tarea y hacer que se ejecute cada x tiempo para volver a recuperar la conexión.
-Podemos usar curl para junto con los servidores Hermes, Loki, Hestia.
-
-# Modules ES
-
-Backdoor Maat: Concede acceso al cmd de los sistemas objetivo, facilitando la ejecución de comandos, manipulación de archivos y reconocimiento. Servidor. Puerto: 
-
-MaatReverse: Establece una conexión inversa , permitiendo la comunicación desde el objetivo hasta el servidor del operador que en este caso es el cliente. Shell inverso.
-
-Hestia: Crea una interfaz oculta para la recuperación segura de archivos del sistema objetivo, garantizando la extracción de datos. Servidor. Puerto: 5000
-
-Loki: Permite la descarga de archivos desde sistemas objetivo. Servidor. Puerto: 8000
-
-Hermes: Inyecta archivos en sistemas objetivo, integrándolos sin problemas en directorios para uso futuro. Servidor. Puerto: 3030
-
-Argos: Captura la actividad de la pantalla objetivo, proporcionando un archivo visual. Servidor. Puerto: 3030
-
 
