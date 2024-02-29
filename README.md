@@ -1,3 +1,7 @@
+
+![Architecture](https://github.com/sousou15/Backdoor/assets/43934641/84b6a1f2-7e5c-4399-944d-2f67b604a063)
+
+
 # Backdoor EN
 This is a functional version but it is also a very simple one and has a couple of bugs that had been corrected already. I'm uploading that soon.
 I made this project just for fun.
