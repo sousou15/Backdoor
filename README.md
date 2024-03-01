@@ -6,7 +6,7 @@
 
 This is a functional version but it is also a very simple one and has a couple of bugs that had been corrected already. I'm uploading that soon.
 
-I made this project just for fun And I am currently working on it to improve it and incorporate an interface.
+I made this project just for fun and I am currently working on it to improve it and incorporate an interface.
 The reverse connection module is still not working properly.
 
 "To expose it to the internet, redirect with TCP not with HTTP. Example: ngrok tcp 8080. We are working with sockets.
