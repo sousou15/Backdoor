@@ -13,7 +13,8 @@ To expose it to the internet, redirect with TCP not with HTTP. Example: ngrok tc
 
 
 Additionally, you can find some commands that can be executed in NOTES.txt. We can schedule the executable as a task to run at intervals to re-establish the connection.
-We can use curl along with the Hermes, Loki, and Hestia servers.
+We can use curl along with the Hermes, Loki, and Hestia servers.  
+Later on, my aim is to automate all of these tasks.
 
 # Modules 
 
