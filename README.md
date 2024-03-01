@@ -18,6 +18,8 @@ Later on, my aim is to automate all of these tasks.
 
 # Modules 
 
+For now, ports and hosts can be customized on the code.
+
 -Maat: Grants comprehensive access to target systems, facilitating command execution, file manipulation, and reconnaissance. Based on sockets. TCP. 
 
 -MaatReverse: Establishes a covert reverse connection, enabling communication from the target to the operator's server. Reverse shell. Still working on it ;)
