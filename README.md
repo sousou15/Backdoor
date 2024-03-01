@@ -5,12 +5,13 @@
 # RAT in python
 
 This is a functional version but it is also a very simple one and has a couple of bugs that had been corrected already. I'm uploading that soon.
-I made this project just for fun.
+I made this project just for fun And I am currently working on it to improve it and incorporate an interface.
+The reverse connection module is still not working properly.
 
 "To expose it to the internet, redirect with TCP not with HTTP. Example: ngrok tcp 8080. We are working with sockets.
 
 
-In NOTES.txt, there are some commands that can be executed. We can schedule the executable as a task to run at intervals to re-establish the connection.
+Additionally, you can find some commands that can be executed in NOTES.txt. We can schedule the executable as a task to run at intervals to re-establish the connection.
 We can use curl along with the Hermes, Loki, and Hestia servers.
 
 # Modules 
